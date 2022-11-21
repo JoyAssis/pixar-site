@@ -47,3 +47,19 @@ footer{
     justify-content: center;
     align-items: center;
 }
+/*----------- responsivo--------------------- */
+@media(min-width:200px) and (max-width:420px){
+   header{
+    background-color: #0d0735;
+   }
+   nav{
+    width: 90vw;
+   }
+   main{
+    height: 100vh;
+    flex-wrap: wrap;
+   }
+   .banner{
+    background-size: cover;
+   }
+}
